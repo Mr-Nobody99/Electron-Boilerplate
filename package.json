@@ -52,6 +52,7 @@
               "entryPoints": [
                 {
                   "html": "./src/index.html",
+                  "preload": {"js": "./src/preload.ts"},
                   "js": "./src/renderer.ts",
                   "name": "main_window"
                 }
