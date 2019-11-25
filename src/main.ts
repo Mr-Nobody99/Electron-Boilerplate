@@ -1,6 +1,7 @@
+process.env.ELECTRON_DISABLE_SECURITY_WARNINGS = '1';
+
 declare var MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY: any;
 declare var MAIN_WINDOW_WEBPACK_ENTRY: any;
-process.env.ELECTRON_DISABLE_SECURITY_WARNINGS = '1';
 
 import { app, BrowserWindow } from 'electron';
 if (require('electron-squirrel-startup')) {
